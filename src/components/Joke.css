@@ -1,0 +1,27 @@
+.joke-card {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 2px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.joke-id {
+  text-align: left;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.joke-joke {
+  text-align: center;
+  font-style: italic;
+  font-size: larger;
+  font-weight: 100;
+  margin-bottom: 1rem;
+}
+
+.joke-joke::after,
+.joke-joke::before {
+  content: open-quote;
+}
